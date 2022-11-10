@@ -1,0 +1,25 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+        System.out.println("Hello, world!");
+         boolean var_boolean=true;
+         int idade = 20;
+         float peso = 90.7f;
+         char letra = 'c';
+        String nome = "João das Neves";
+        System.out.println("o conteúdo da varíavel boolean é:"+ var_boolean);
+        System.out.println("o conteúdo da varíavel inteiro é:"+ idade);
+        System.out.println("o conteúdo da varíavel float é:" + peso);
+        System.out.println("o conteúdo da varíavel char é:" + letra);
+        System.out.println("o conteúdo da varíavel string é:" + nome);
+
+
+
+
+
+
+    }
+}
