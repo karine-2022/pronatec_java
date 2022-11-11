@@ -11,3 +11,9 @@ public class main
         System.out.println ("subtração:"+(x-y));
         System.out.println ("multiplicação :"+(x*y));
         System.out.println ("divisão:" +(x/y));
+        System.out.println ("resto da divisão: " +(y%x));
+
+        if (y%x == 0)
+        System.out.println("número par !");
+        else
+        System.out.println("número impar!");
