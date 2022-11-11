@@ -1,0 +1,13 @@
+// tip: each public class is put in its own file
+public class main
+{
+    // tip: arguments are passed via the field below this editor
+    public static void main(String[] args)
+    {
+        int x = 10;
+        int y = 20;
+          
+        System.out.println ("Soma :"+(x+y));
+        System.out.println ("subtração:"+(x-y));
+        System.out.println ("multiplicação :"+(x*y));
+        System.out.println ("divisão:" +(x/y));
